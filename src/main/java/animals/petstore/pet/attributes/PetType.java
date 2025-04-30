@@ -4,7 +4,7 @@ package animals.petstore.pet.attributes;
  * The different types of PETS that are available
  */
 public enum PetType  {
-    BIRD("Chirp"),
+    BIRD("Tweet"),
     CAT("Meow"),
     DOG("Bark"),
     SNAKE("Psss"),

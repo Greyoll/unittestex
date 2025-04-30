@@ -76,10 +76,10 @@ public class Bird extends Pet implements PetImpl {
         String language;
         switch (this.animalType) {
             case DOMESTIC:
-                language = "The cat goes chirp! chirp!";
+                language = "The bird goes chirp! chirp!";
                 break;
             case WILD:
-                language = "The cat goes caw! caw!";
+                language = "The bird goes caw! caw!";
                 break;
             default:
                 language = "The bird goes " + super.getPetType().speak + "! " + super.getPetType().speak + "!";
